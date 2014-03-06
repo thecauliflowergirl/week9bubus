@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--css--> 	
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+	<!--jqueries and bubble settings-->
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jqfloat.js"></script>
+	<script>
+		$(document).ready(function() {
+	    $('.bubble').jqFloat();
+	    $('#bubble2').jqFloat();
+	    $('#bubble3').jqFloat({
+			width:10,
+			height:50,
+			speed:1800
+	    });
+		});
+	</script>
+</head> <!--end of head-->
+
+
+<body>
+		<div id="container">
+
+			<div id="status">
+				<img id="status_bar" src="images/status_bar.png">
+			</div>
+
+			<div id="header">
+				<a href="#"><img id="home_button" src="images/homepage.png"></a>
+				<a href="#"><img id="setting" src="images/setting.png"></a>
+			
+				
+			</div>
+
+			<div id="home_content">
+
+				{{#each bubble_data}}
+					<div id="bubble{{id}}" class="bubble">
+						<a href="text_example.html">
+							<img src="images/bubbles.png">
+							<span>{{content}}</span>
+						</a>
+					</div>
+
+				{{/each}}
+
+				{{#each piggy_data}}
+
+					<div id="bubble{{id}}" class="bubble">
+						<a href="oldpiggy_example.html">
+							<img src="images/piggy2.png">
+							<span>{{content}}</span>
+						</a>
+					</div>
+		
+				{{/each}}
+
+
+			</div>
+
+
+			<div id="home_buttons">
+
+				<div id="msg_button"><a href="text"><img  src="images/msg.png"></a></div>
+
+				<div id="piggy_button"><a href="feed"><img  src="images/piggy_button.png"></a></div>
+
+			</div>
+		</div>
+		
+		<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+
+</html>
+
+
+
+

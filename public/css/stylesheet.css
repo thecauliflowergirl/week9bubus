@@ -1,0 +1,605 @@
+
+
+/*Feedpiggy*/
+
+#header2{
+	width: 330px;
+	height: 75px;
+	background-color: #4fc1e9;
+	background-image: url(../bubbleus/images/createpiggy_title.png);
+
+
+}
+
+#container{
+
+width: 332px;
+height: 640px;
+background-color:#e4e4e4;
+
+
+}
+
+
+#status{
+	width: 330px;
+	height: 20px;
+
+
+
+}
+
+
+
+#header{
+	width: 330px;
+	height: 75px;
+	background-color: #4fc1e9;
+
+
+
+}
+
+
+#home_button{
+
+float: left;
+
+
+}
+
+#piggy{
+	width:260px;
+	height: 300px;
+	margin-top: 80px;
+	margin-left: 40px;
+	
+
+
+
+}
+
+#add_button{
+	
+	width:80px;
+	height: 80px;
+	margin-top: 30px;
+	margin-left: 25px;
+	
+
+}
+
+#add_instruction{
+	
+	width: 300px;
+	font-size: 15px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	color: #4fc1e9;
+	margin-left: 30px;
+	margin-top: 100px;
+
+
+
+}
+
+
+
+
+
+
+/*Progress Report*/
+
+
+#header5{
+	width: 330px;
+	height: 75px;
+	background-color: #4fc1e9;
+	background-image: url(../bubbleus/images/report_title.png);
+
+
+}
+
+#home_button{
+
+float: left;
+
+
+}
+
+#submission_form{
+	margin-top: 20px;
+
+
+
+}
+
+.form_titles{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	color:#727475;
+
+
+}
+
+
+
+
+
+.form_fields{
+
+margin-top: 5px;
+margin-left: 40px;
+width: 260px;
+height: 30px;
+border-radius: 15px;
+border: solid 4px #4fc1e9;
+font-size: 20px;
+}
+
+#finish_button{
+margin-top: 10px;
+float: right;
+margin-right: 20px;
+
+}
+
+
+
+
+
+/*feeding*/
+
+#submission_form2{
+	margin-top: 40px;
+
+
+
+}
+
+#header6{
+	width: 330px;
+	height: 75px;
+	background-color: #4fc1e9;
+	background-image: url(../bubbleus/images/feeding_title.png);
+
+
+}
+
+#home_button{
+
+float: left;
+
+
+}
+
+
+
+.form_fields{
+
+margin-top: 5px;
+margin-left: 40px;
+width: 260px;
+height: 30px;
+border-radius: 15px;
+border: solid 4px #4fc1e9;
+font-size: 20px;
+color:#727475;
+}
+
+
+
+.feeding_titles{
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 20px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	color:#727475;
+
+
+}
+
+#description_form{
+
+margin-top: 10px;
+margin-left: 40px;
+width: 260px;
+height: 70px;
+border-radius: 15px;
+border: solid 4px #4fc1e9;
+font-size: 20px;
+
+
+}
+
+#back_button{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+
+
+}
+
+
+#finish_button2{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+
+}
+
+
+/*archive_f*/
+#home_button2{
+float: right;
+
+
+
+}
+
+
+#archive_content{
+	width: 300px;
+	height: 370px;
+	margin-top: 50px;
+
+
+}
+
+
+.archive_options{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 10px;
+
+}
+
+
+/*archive_m*/
+
+#home_button3{
+float: left;
+
+}
+
+#archive_content{
+	width: 300px;
+	height: 370px;
+	margin-top: 50px;
+
+
+}
+
+#man{
+	float: right;
+
+
+}
+
+
+
+
+
+/*homepage*/
+
+#header{
+	background-image: url(../bubbleus/images/hometitle.png);
+
+
+}
+
+
+#home_button{
+
+float: left;
+
+
+}
+
+#setting{
+margin-top: 15px;
+float: right;
+margin-right: 15px;
+
+
+}
+
+#home_content{
+width: 300px;
+height: 420px;
+margin-top: 20px;
+
+
+}
+
+#bubble1{
+
+	margin-left: 80px;
+	margin-top: 20px;
+
+}
+
+#bubble2{
+	margin-left:80px;
+	margin-top: 40px;
+
+
+}
+
+#bubble3{
+	margin-left: 30px;
+	margin-top: -30px;
+
+
+}
+
+
+#home_buttons{
+
+	margin-top: 20px;
+	width: 330px;
+	height: 85px;
+	border: 4px solid #43add2;
+	background-color: #4fc1e9;
+
+
+
+}
+
+#msg_button{
+
+	
+	margin-left: 40px;
+
+	float: left;
+}
+
+
+
+#piggy_button{
+
+	float: right;
+	margin-right: 40px;
+
+
+
+}
+
+
+/*text*/
+
+
+#header7{
+	width: 330px;
+	height: 75px;
+	background-color: #4fc1e9;
+	background-image: url(../bubbleus/images/sendmsg_title.png);
+
+
+}
+#home_button{
+
+float: left;
+
+
+}
+
+#setting{
+margin-top: 15px;
+float: right;
+margin-right: 15px;
+
+
+}
+
+
+#submission_form{
+	margin-top: 20px;
+
+
+
+}
+
+
+.text_titles{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	color:#727475;
+
+
+}
+
+.text_field{
+
+margin-top: 30px;
+margin-left: 40px;
+width: 260px;
+height: 200px;
+border-radius: 15px;
+border: solid 4px #4fc1e9;
+font-size: 20px;
+color:#727475; 
+}
+
+
+
+#bubble_suggestions{
+	width: 200px;
+	height: 45px;
+	background-color: #4fc1e9;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color:#727475;
+	border-radius: 15px;
+	margin-left: 70px;
+	margin-top: 30px;
+
+
+}
+
+#capsule_button{
+margin-top: 20px;
+float: left;
+margin-left: 20px;
+
+}
+
+
+#send_button{
+margin-top: 20px;
+float: right;
+margin-right: 20px;
+
+}
+
+
+/*oldpiggy example*/
+
+
+
+#header8{
+	width: 330px;
+	height: 75px;
+	background-color: #4fc1e9;
+	background-image: url(../bubbleus/images/pigexp_title.png);
+
+
+}
+
+.form_titles{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	color:#727475;
+
+
+}
+
+.content{
+	margin-top:10px;
+	margin-left: 40px;
+
+
+
+}
+
+#finish_button{
+margin-top: 10px;
+float: right;
+margin-right: 20px;
+
+}
+
+#add_button{
+	margin-top: 10px;
+	float: left;
+	margin-left: 20px;
+
+
+
+}
+
+
+
+/*text example*/
+
+#header4{
+	width: 330px;
+	height: 75px;
+	background-color: #4fc1e9;
+	background-image: url(../bubbleus/images/textexp_title.png);
+
+
+}
+
+
+#convo_icon{
+	width: 80px;
+	height: 80px;
+	margin-top: 60px;
+	margin-bottom: -40px;
+	margin-left: -60px;
+	float: left;
+}
+
+
+
+#convo_content{
+
+	width: 300px;
+	height: 300px;
+	margin-left: 50px;
+	margin-top: -100px;
+	
+
+}
+
+#close_button1{
+float: right;
+margin-top: 200px;
+margin-right: 20px;
+
+}
+
+/*capsule example*/
+
+#header3{
+	width: 330px;
+	height: 75px;
+	background-color: #4fc1e9;
+	background-image: url(../bubbleus/images/capsule_title.png);
+
+
+}
+
+#capsule_body{
+	float: left;
+	margin-left: -60px;
+	margin-top: 20px;
+
+
+
+
+}
+
+#close_button2{
+	float: right;
+	margin-right: 20px;
+	margin-top: -20px;
+
+
+}
+
+
+/*home_post_piggy*/
+
+#bubble4{
+	margin-top: 20px;
+	margin-left: 20px;
+
+
+}
+
+
+
+/*bubble suggestions*/
+
+#love_quotes{
+	margin-top: 20px;
+
+
+
+}
+
+
+

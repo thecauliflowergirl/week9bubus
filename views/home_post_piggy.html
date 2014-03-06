@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--css--> 	
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+	<!--jqueries and bubble settings-->
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jqfloat.js"></script>
+	<script>
+		$(document).ready(function() {
+    	$('.bubble').jqFloat();
+    	$('#bubble2').jqFloat();
+    	$('#bubble3').jqFloat({
+			width:10,
+			height:50,
+			speed:1800
+	    });
+	    $('#bubble4').jqFloat({
+			width:5,
+			height:100,
+			speed:1000
+	    });
+	});
+	</script>		
+
+	</head>
+
+
+	<body>
+
+		<div id="container">
+
+			<div id="status">
+				<img id="status_bar" src="images/status_bar.png">
+			</div>
+
+			<div id="header">
+				<a href="#"><img id="home_button" src="images/homepage.png"></a>
+				<a href="#"><img id="setting" src="images/setting.png"></a>
+			
+				
+			</div>
+
+			<div id="home_content">
+
+				<a id="bubble1" class="bubble" href="text_example.html"><img src="images/bubbles.png"></a>
+
+				<a id="bubble2" class="bubble" href="capsule_example.html"><img src="images/bubbles.png"></a>
+
+				<a id="bubble3" class="bubble" href="oldpiggy_example.html"><img src="images/piggy2.png"></a>
+	
+				<a id="bubble4" class="bubble" href="oldpiggy_example.html"><img src="images/piggy2.png"></a>
+			</div>
+
+
+			<div id="home_buttons">
+
+				<div id="msg_button"><a href="text.html"><img  src="images/msg.png"></a></div>
+
+				<div id="piggy_button"><a href="FeedPiggy.html"><img  src="images/piggy_button.png"></a></div>
+
+
+			</div>
+
+			
+
+		</div>
+
+
+
+		
+
+		<script src="js/bootstrap.min.js"></script>
+
+
+
+	</body>
+
+
+</html>
+
+
+
