@@ -19,16 +19,26 @@
 			</div>
 
 			<div id="header7">
-				<a href="index.html"><img id="home_button" src="images/homepage.png"></a>
+				<a href="/"><img id="home_button" src="images/homepage.png"></a>
 				
 			</div>
 
 
 			<div id="submission_form">
 
-				<p class="text_titles">Enter:</p>
+				<p class="text_titles">Enter Message:</p>
 				
-				<button id="bubble_suggestions" type="button" onclick="#">Bubble Suggestions</button>
+				<!--<button id="bubble_suggestions" type="button" onclick="#">Bubble Suggestions</button>-->
+				<div data-role="fieldcontain">
+				   
+				   <select name="select-choice-1" id="bubble_suggestions">
+				   	  <option value="bub">Bubble Suggestion</option>
+				      <option value="flower">The flower you remind me of is...</option>
+				      <option value="song">The song that made me think of you is...</option>
+				      <option value="memory">My favorite memory of us is...</option>
+				      <option value="remember">Remember when we first...</option>
+				   </select>
+				</div>
 
 			<form name="input" action="/submit_text" method="post">				
 				<input class= "text_field" type="text" name="goal" />

@@ -14,12 +14,9 @@
 
 		<div id="container">
 
-			<div id="status">
-				<img id="status_bar" src="images/status_bar.png">
-			</div>
 
 			<div id="header6">
-				<a href="index.html"><img id="home_button" src="images/homepage.png"></a>
+				<a href="/"><img id="home_button" src="images/homepage.png"></a>
 				
 			</div>
 
@@ -27,23 +24,18 @@
 			<div id="submission_form2">
 
 			<form name="detail" action="list" method="post">
-				<p class="feeding_titles">Title:</p>
-			
-			 
-				<input class= "form_fields" type="text" name="title">
+				<p class="feeding_titles">Saving For...:</p>
+				<input class= "form_fields" type="text" name="title"> <br />
 			
 			
-				<p class="feeding_titles">Goal:</p>
+				<p class="feeding_titles">Set Goal Amount:</p>
+				<input class= "form_fields" type="text" name="goal" value="$"><br />
 
-				<input class= "form_fields" type="text" name="goal">
+				<p class="feeding_titles">Contributing Amount:</p>
+				<input class="form_fields" name="needed" value="$"><br />
 
-				<p class="feeding_titles">Amount:</p>
-				<input id= "description_form" type="text" name="needed">
-
-				<p class="feeding_titles">Description:</p>
-			
-
-				<input class= "form_fields" type="text" name="current">
+				<p class="feeding_titles">Add Comment:</p>
+				<input id= "description_form" type="text" name="current" value="Ex: I sacrificed a $7 sandwich for us today, babe" onFocus="this.value=' '"><br />
 			
 			<input type="submit" value="submit"> 
 			</form>

@@ -203,6 +203,11 @@ color:#727475;
 
 }
 
+.list_paragraph
+{
+	margin-left: 20px;
+}
+
 #description_form{
 
 margin-top: 10px;
@@ -431,7 +436,7 @@ color:#727475;
 
 
 #bubble_suggestions{
-	width: 200px;
+	width: 250px;
 	height: 45px;
 	background-color: #4fc1e9;
 	font-family: 'PT Sans', sans-serif;
@@ -439,7 +444,7 @@ color:#727475;
 	font-weight: bold;
 	color:#727475;
 	border-radius: 15px;
-	margin-left: 70px;
+	margin-left: 40px;
 	margin-top: 30px;
 
 

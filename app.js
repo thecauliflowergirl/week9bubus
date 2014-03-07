@@ -7,11 +7,12 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
-
 var index = require('./routes/index');
 var text = require('./routes/text');
 var piggy= require('./routes/piggy');
-var list= require('./routes/list');
+var list = require('./routes/list');
+var feed = require('./routes/feed');
+var archive = require('./routes/archive');
 // Example route
 // var user = require('./routes/user');
 
@@ -43,11 +44,14 @@ if ('development' == app.get('env')) {
 app.get('/', index.view);
 app.get('/text', index.text_page);
 app.get('/feed', index.feed_page);
+app.get('/index', feed.index_page);
+app.get('/index', list.index_page);
 app.post('/submit_text', text.create);
 app.post('/submit_detail', piggy.submit_detail);
 app.post('/list',list.showlist );
 // Example route
 // app.get('/users', user.list);
+//app.get('/handlebar' you want to link to, route-js.function)
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

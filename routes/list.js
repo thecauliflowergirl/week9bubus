@@ -10,7 +10,10 @@ exports.showlist = function(req, res){
 
 	}
 
-	
 
 	res.render('list', text);
 };
+
+exports.index_page = function(req, res){
+	res.render('index');
+}
