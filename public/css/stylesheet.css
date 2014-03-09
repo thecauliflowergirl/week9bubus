@@ -191,7 +191,7 @@ color:#727475;
 }
 
 
-
+/* Chen: I might have edited .feeding_titles ...not sure o_o */
 .feeding_titles{
 	font-size: 20px;
 	margin-top: 5px;
@@ -202,10 +202,22 @@ color:#727475;
 
 
 }
-
+/* Chen: Edit .list_paragraph*/
 .list_paragraph
 {
 	margin-left: 20px;
+}
+
+/* Chen: Edit .title*/
+
+.title
+{
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	
 }
 
 #description_form{

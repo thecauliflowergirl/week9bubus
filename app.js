@@ -3,6 +3,7 @@
  * Module dependencies.
  */
 
+// Chen: added var piggy(I think), list, feed, archive
 var express = require('express');
 var http = require('http');
 var path = require('path');
@@ -40,12 +41,13 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+
 // Add routes here
 app.get('/', index.view);
 app.get('/text', index.text_page);
-app.get('/feed', index.feed_page);
-app.get('/index', feed.index_page);
-app.get('/index', list.index_page);
+app.get('/feed', index.feed_page); 
+app.get('/index', feed.index_page); // Chen: added this line
+app.get('/index', list.index_page); // Chen: added this line
 app.post('/submit_text', text.create);
 app.post('/submit_detail', piggy.submit_detail);
 app.post('/list',list.showlist );

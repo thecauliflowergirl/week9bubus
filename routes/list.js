@@ -14,6 +14,7 @@ exports.showlist = function(req, res){
 	res.render('list', text);
 };
 
+// Chen: added exports.index_page
 exports.index_page = function(req, res){
 	res.render('index');
 }
